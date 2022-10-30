@@ -86,7 +86,7 @@ a {
   max-width: 1275px;
   padding: 66px 60px;
 }
-
+/*styling the 'text box' used in the overview pages*/
 #overview {
   display: flex;
   text-align:justify;
@@ -98,7 +98,7 @@ a {
 .title {
   font-size: 1.9rem;
 }
-
+/* styling the line breaks*/
 hr{
   width: 100%;
   height: 2px;
@@ -133,7 +133,7 @@ hr{
   margin-bottom: 30px;
 }
 
-
+/*styling the hover effect of the report button*/
 .btn-report:hover,
 .btn-report:focus {
   background-color: orange;
@@ -142,8 +142,7 @@ hr{
 
 
 .rect-border-1,
-.rect-border-2,
-.rect-border-2-title {
+.rect-border-2 {
   border: 1px solid #ffffff;
   position: relative;
 }
@@ -254,12 +253,16 @@ hr{
 }
 
 .footer-link {
-  color: blue;
+  color: black;
 }
 
 .footer-link:hover {
-  color: #F93;
+  color: blue;
   text-decoration: none;
+}
+
+.footer-link:visited {
+  color: purple;
 }
 
 .page-half {
