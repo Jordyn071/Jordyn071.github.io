@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Cyberbullying Awareness</title>
+
+<!--Linking to the CSS stylesheet-->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <!--Main nav, left sidebar-->
+  <body>
+    <main class="container-fluid">
+      <div class="row">        
+          <nav id="Sidebar" class="bg-green sidebar-1">
+            <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
+              <i class="fas fa-bars"></i>
+            </button>
+            <div class="sticky-sidebar">
+              <div class="title-box">
+                  <img src="img/logo2.jpg" class="logo-img float-left" alt="Logo">
+				  <div class="report">
+					<a href="report.html">
+					<button class="btn-report text-uppercase float-right">Report Cyber Abuse</button></i> </a>
+				  </div>
+				  <h1 class="title text-uppercase font-weight-bold">Cyberbullying Help & Awareness</h1> 	
+              </div>
+			  <hr>
+<!--Creating actual nav list linked to each specific section of the main page -->
+              <ul id="MainNav" class="nav flex-column text-uppercase main-nav">
+                <li class="nav-item">
+                  <a href="index.html#overview" class="nav-link active">
+                    <span class="d-inline-block mr-3">Overview</span>
+                    <span class="d-inline-block position"></span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="index.html#manage" class="nav-link">
+                    <span class="d-inline-block mr-3">Manage it yourself</span>
+                    <span class="d-inline-block position"></span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="index.html#parentalhelp" class="nav-link">
+                    <span class="d-inline-block mr-3">Help for Parents</span>
+                    <span class="d-inline-block position"></span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="index.html#law" class="nav-link">
+                    <span class="d-inline-block mr-3">CB & the Law</span>
+                    <span class="d-inline-block position"></span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="index.html#moreinfo" class="nav-link">
+                    <span class="d-inline-block mr-3">Helplines & More Info</span>
+                    <span class="d-inline-block position"></span>
+                  </a>
+                </li>
+              </ul>
+              <footer class="small">
+                <p class="mb-0"><a href="about.html" class="footer-link">About Us </a><a>|</a>
+                  <a href="privacy.html" class="footer-link"> Privacy Policy </a><a>|</a>
+				  <a href="contact.html" class="footer-link"> Contact Us</a>
+				  <p> &copy 2022 CBHA</p>
+                </p>
+              </footer>
+            </div>
+          </nav>
+  <!--Creating main content-->
+          <main role="main" class="ml-sm-auto col-12">
+          <div class="page-wrap">
+            <section id="contact" class="row page-half">
+                <div class="col-xl-6 mb-5">
+                  <div class="rect-border-1">
+                    <div class="rect-border-2 box-pad">
+                        <h1 class="color-primary page-title mb-4">Report Cyberbullying</h1>
+                        <p class="mb-4">
+                          If you feel that you are being cyberbullied but are unsure who to turn to for help, you may report the harassment by filling in the contact form provided.
+                        </p>
+                        <p class="mb-3">
+                         If you feel that someone you know is being harassed, you may report it by filling in the same form, simply state that it is on behalf of another person in the message box.
+                        </p>
+                    </div>                    
+                  </div>                  
+                </div>
+				<!-- static contact form for provinding ability to report harassment-->
+                <div class="col-xl-6 mb-5">
+                  <div class="contact-form-wrap">
+                    <form action="" method="" class="contact-form">
+                        <div class="form-group">
+                          <input type="text" id="contact_name" name="contact_name" class="form-control rounded-0 border-top-0 border-right-0 border-left-0" placeholder="Your Name or Anon" required="" />
+                        </div>
+                      
+                        <div class="form-group">
+                          <textarea rows="4" id="contact_message" name="contact_message" class="form-control rounded-0 border-top-0 border-right-0 border-left-0" placeholder="Include where the online harassment has occured..." required=""></textarea>
+                        </div>
+                
+                        <div class="form-group mb-0">
+                          <button type="submit" class="btn rounded-0 d-block ml-auto btn-primary">
+                            SEND
+                          </button>
+                        </div>
+                      </form>
+                  </div>                    
+                </div>
+              </section>
+          </div>
+        </main>        
+      </div>
+    </div>
+	<!--linking to each jquery needed, different as these are not single page navs or scroll windows-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/extra-scripts.js"></script>
+  </body>
+</html>
